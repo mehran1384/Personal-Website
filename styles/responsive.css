@@ -1,0 +1,130 @@
+
+
+@media (min-width: 576px) {
+    .introduction {
+        width: 28.125rem;
+    }
+
+    .introduction-contnet__title, .ican-content__title, .trust-title {
+        font-size: 1.25rem;
+    }
+
+    .language-content__card {
+        margin: 0 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .introduction {
+        width: 37.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .header {
+        padding: 0;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .menu__link {
+        padding: 0;
+    }
+
+    .navbar-mobile {
+        left: -15rem !important;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .backdrop-filter {
+        display: none;
+    }
+
+    .btn-box__switch {
+        position: fixed;
+        right: 6px;
+    }
+
+    .main {
+        padding-top: 4rem;
+    }
+
+    .introduction {
+        width: 100%;
+        background-color: transparent;   
+        box-shadow: none;
+        margin-bottom: 0;
+    }
+
+    .introduction-contnet {
+        flex-direction: row;   
+    }
+
+    
+    .introduction-contnet__text {
+        padding-right: 10rem;
+    }
+
+    .introduction-contnet__img {
+        width: 14.5rem;
+        height: 14.5rem;
+    }
+
+    .introduction-contnet__title, .ican-content__title, .trust-title {
+        width: 17.813rem;
+        font-size: 1.375rem;
+    }
+
+    .introduction-contnet__caption, .ican-content__caption {
+        width: 20.063rem;
+        font-size: 1.125rem;
+    }
+
+    .ican-content__title {
+        width: 19.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .introduction-contnet__img {
+        width: 18.75rem;
+        height: 18.75rem;
+    }
+
+    .introduction-contnet__title, .ican-content__title {
+        font-size: 1.5rem;
+        width: 22.125rem;
+    }
+
+    .introduction-contnet__caption, .ican-content__caption {
+        width: 22.25rem;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .introduction-contnet__img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .introduction-contnet__title, .ican-content__title {
+        font-size: 1.625rem;
+        width: 22.125rem;
+    }
+
+    .ican-content__title {
+        width: 23.063rem;
+    }
+
+    .introduction-contnet__caption, .ican-content__caption {
+        width: 22.25rem;
+    }
+}

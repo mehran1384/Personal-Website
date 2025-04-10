@@ -1,0 +1,20 @@
+/*////////// Vazir Light ////////// */
+
+@font-face {
+    font-family: 'Vazir Light';
+    src: url('../fonts/Vazir-Light.woff');
+}
+
+/*////////// Vazir Medium ////////// */
+
+@font-face {
+    font-family: 'Vazir Medium';
+    src: url('../fonts/Vazir-Medium.woff');
+}
+
+/*////////// Vazir Bold ////////// */
+
+@font-face {
+    font-family: 'Vazir Bold';
+    src: url('../fonts/Vazir-Bold.woff');
+}
